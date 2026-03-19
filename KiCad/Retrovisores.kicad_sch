@@ -383,48 +383,6 @@
 			)
 		)
 	)
-	(sheet
-		(at 237.49 24.13)
-		(size 34.29 22.86)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "ed4ed631-fb5a-4bb6-a329-13afefeb3613")
-		(property "Sheetname" "USART"
-			(at 237.49 23.4184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "USART.kicad_sch"
-			(at 237.49 47.5746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Retrovisores"
-				(path "/9b9f005f-0621-4675-bd4e-683e7082b120"
-					(page "7")
-				)
-			)
-		)
-	)
 	(sheet_instances
 		(path "/"
 			(page "1")

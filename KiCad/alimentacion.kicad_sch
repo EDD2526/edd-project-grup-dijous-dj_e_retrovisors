@@ -820,6 +820,28 @@
 			)
 		)
 	)
+	(global_label "5V"
+		(shape input)
+		(at 119.38 71.12 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2db8815-11f7-443f-a5b3-5a20a42f7d16")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.38 65.8367 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 74.93 66.04 0)
