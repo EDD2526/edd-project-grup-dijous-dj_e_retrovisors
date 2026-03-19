@@ -6,6 +6,48 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 153.67 58.42)
+		(size 35.56 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1a76def2-ddde-4ac6-93d0-da3d16171b62")
+		(property "Sheetname" "Calefactor"
+			(at 153.67 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Calefactor_sch.kicad_sch"
+			(at 153.67 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Retrovisores"
+				(path "/9b9f005f-0621-4675-bd4e-683e7082b120"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 67.31 24.13)
 		(size 35.56 22.86)
 		(exclude_from_sim no)
