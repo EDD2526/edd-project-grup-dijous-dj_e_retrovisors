@@ -936,6 +936,26 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 83.82) (xy 114.3 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64e149af-b617-43e0-b26b-2e774467f25d")
+	)
+	(wire
+		(pts
+			(xy 121.92 83.82) (xy 128.27 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95db613e-0760-4b7f-9ff5-8a313e1c70a0")
+	)
+	(wire
+		(pts
 			(xy 107.95 44.45) (xy 107.95 49.53)
 		)
 		(stroke
@@ -946,6 +966,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 68.58) (xy 107.95 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa334b3d-2d3e-4398-8458-dd0fa51a5cfe")
+	)
+	(wire
+		(pts
 			(xy 35.56 49.53) (xy 35.56 52.07)
 		)
 		(stroke
@@ -953,6 +983,28 @@
 			(type default)
 		)
 		(uuid "f05647da-3759-4d24-a1b7-7e60335a6072")
+	)
+	(global_label "HEAT"
+		(shape input)
+		(at 100.33 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2588e5ef-4536-467f-a2cd-cf382e57aa52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.8091 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "VCC"
 		(shape input)
@@ -1077,6 +1129,50 @@
 		(uuid "c48b0492-92bd-4bc4-a9d2-7e19d3c3dfaa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 29.0672 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 107.95 68.58 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd046bd8-bb1e-45fa-ab8a-56a8109bf94f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.95 63.2967 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HEAT"
+		(shape input)
+		(at 100.33 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d5e6a757-81c6-4475-bf2f-cfba2d3c8a52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.8091 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1292,6 +1388,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Heater")
+		(at 118.11 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "779685e1-7466-4bdb-ad93-0f9e5b488620")
+		(property "Reference" "R25"
+			(at 118.11 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Heater"
+			(at 118.11 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistive heater"
+			(at 118.11 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6e58af7-468b-4b53-8874-14618ca89801")
+		)
+		(pin "2"
+			(uuid "00b67cae-f438-40d0-93e2-26069cc67de7")
+		)
+		(instances
+			(project "Retrovisores"
+				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/1a76def2-ddde-4ac6-93d0-da3d16171b62"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:AO3400A")
 		(at 105.41 54.61 0)
 		(unit 1)
@@ -1432,6 +1596,149 @@
 			(project "Retrovisores"
 				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/1a76def2-ddde-4ac6-93d0-da3d16171b62"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 105.41 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc4f4825-0d66-4418-9e67-1620cf6b42c3")
+		(property "Reference" "Q26"
+			(at 111.76 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 111.76 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 110.49 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 110.49 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 105.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7718ab35-4c45-4141-9b68-e8c2b508fc31")
+		)
+		(pin "2"
+			(uuid "463a5b28-3df3-4e57-aa0b-7cdd81ac13be")
+		)
+		(pin "3"
+			(uuid "3de14269-0e23-4add-9d20-f070ab96614b")
+		)
+		(instances
+			(project "Retrovisores"
+				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/1a76def2-ddde-4ac6-93d0-da3d16171b62"
+					(reference "Q26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0b07f5e-e1b7-427c-9309-c9b43cd45a1e")
+		(property "Reference" "#PWR045"
+			(at 134.62 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66fe4ba0-213f-42ec-bfea-b4d577e86e2e")
+		)
+		(instances
+			(project "Retrovisores"
+				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/1a76def2-ddde-4ac6-93d0-da3d16171b62"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
