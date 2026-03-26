@@ -5,6 +5,174 @@
 	(uuid "d579cfa3-e44c-47da-80ab-9683009f0092")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1352,6 +1520,12 @@
 		(uuid "00608f81-c860-4b8f-b72e-e1b603751034")
 	)
 	(junction
+		(at 242.57 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06ae5d51-fb1f-4960-9943-9440d6d06877")
+	)
+	(junction
 		(at 250.19 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1556,6 +1730,12 @@
 		(uuid "da7a4286-fdc6-4c44-adba-04d8ce185c94")
 	)
 	(junction
+		(at 242.57 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e09a59fc-be83-449d-89a9-0dd3d1bc257c")
+	)
+	(junction
 		(at 163.83 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1572,6 +1752,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e836cda9-c668-4fc6-9c5d-fb5b6545c1ae")
+	)
+	(wire
+		(pts
+			(xy 242.57 58.42) (xy 232.41 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01039f28-c234-48cb-b3f7-ac4a270ad05e")
 	)
 	(wire
 		(pts
@@ -1645,6 +1835,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 58.42) (xy 232.41 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1744605b-c329-42ec-81a2-bf5a6a39d5b1")
+	)
+	(wire
+		(pts
 			(xy 163.83 77.47) (xy 173.99 77.47)
 		)
 		(stroke
@@ -1672,6 +1872,16 @@
 			(type default)
 		)
 		(uuid "1c97076a-aaad-4f79-825d-3341e5ea22e1")
+	)
+	(wire
+		(pts
+			(xy 242.57 58.42) (xy 242.57 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "219b96da-ac74-4512-bca3-389b4554da4c")
 	)
 	(wire
 		(pts
@@ -1772,6 +1982,16 @@
 			(type default)
 		)
 		(uuid "2e09023d-226a-442a-aa64-4bded76c818f")
+	)
+	(wire
+		(pts
+			(xy 232.41 76.2) (xy 242.57 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "366a80d0-22e1-41da-8bdd-e1b9fe2c860c")
 	)
 	(wire
 		(pts
@@ -1895,16 +2115,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 74.93) (xy 242.57 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c05ad02-cfb3-46b0-bea0-45d8d838c03e")
-	)
-	(wire
-		(pts
 			(xy 139.7 132.08) (xy 146.05 132.08)
 		)
 		(stroke
@@ -1945,6 +2155,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 74.93) (xy 242.57 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "581e900b-89f1-4277-ae5a-77ae21da7a63")
+	)
+	(wire
+		(pts
 			(xy 170.18 132.08) (xy 173.99 132.08)
 		)
 		(stroke
@@ -1962,6 +2182,16 @@
 			(type default)
 		)
 		(uuid "5d1eb549-1a03-4c25-bc01-5eca7bcfd40c")
+	)
+	(wire
+		(pts
+			(xy 242.57 76.2) (xy 242.57 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f86e3b6-4978-49a6-b3ee-3161e2067f06")
 	)
 	(wire
 		(pts
@@ -2012,6 +2242,16 @@
 			(type default)
 		)
 		(uuid "672f0447-34b0-4b4f-9b1f-aa7454210885")
+	)
+	(wire
+		(pts
+			(xy 242.57 87.63) (xy 242.57 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67aecb41-6922-40bf-a342-290e87b9f233")
 	)
 	(wire
 		(pts
@@ -2455,6 +2695,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 57.15) (xy 242.57 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1d4adc7-52dc-4cd8-abad-a0a1e91f0216")
+	)
+	(wire
+		(pts
 			(xy 80.01 76.2) (xy 80.01 77.47)
 		)
 		(stroke
@@ -2492,6 +2742,16 @@
 			(type default)
 		)
 		(uuid "dc3e19e2-26af-4443-b552-82f5f7aba57e")
+	)
+	(wire
+		(pts
+			(xy 232.41 71.12) (xy 232.41 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df657d31-0758-49e1-a318-d00495fc55ed")
 	)
 	(wire
 		(pts
@@ -2839,6 +3099,28 @@
 			)
 		)
 	)
+	(global_label "L{slash}{slash}R"
+		(shape input)
+		(at 234.95 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "42f89212-f4d1-437e-8cbe-4a16368551b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.0057 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDL1"
 		(shape input)
 		(at 106.68 52.07 0)
@@ -2861,9 +3143,9 @@
 			)
 		)
 	)
-	(global_label "L{slash}{slash}R"
+	(global_label "5V"
 		(shape input)
-		(at 242.57 59.69 90)
+		(at 242.57 57.15 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2873,7 +3155,7 @@
 		)
 		(uuid "7718ec7b-00de-4143-b1c6-99adc5a93554")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.57 51.7457 90)
+			(at 242.57 51.8667 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3412,7 +3694,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 242.57 85.09 0)
+		(at 242.57 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3421,7 +3703,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d5e2a2e-8f30-4f3c-be52-adbc05d5d0d1")
 		(property "Reference" "#PWR044"
-			(at 242.57 91.44 0)
+			(at 242.57 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3430,7 +3712,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 242.57 90.17 0)
+			(at 242.57 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3438,7 +3720,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 85.09 0)
+			(at 242.57 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3447,7 +3729,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 85.09 0)
+			(at 242.57 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3456,7 +3738,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 242.57 85.09 0)
+			(at 242.57 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4129,6 +4411,94 @@
 			(project "Retrovisores"
 				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/ac8729f4-7f99-4f94-80ab-41b789ee4364"
 					(reference "Q14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 232.41 67.31 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ee10005-618d-4dd9-97c9-fe07197bd87b")
+		(property "Reference" "D6"
+			(at 234.95 66.0399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 234.95 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 232.41 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 232.41 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 232.41 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1eb64b84-f514-4a4a-a7be-3e553427c1ce")
+		)
+		(pin "2"
+			(uuid "32316c9b-7f1a-4cb6-818f-eb2fd8e9d1fe")
+		)
+		(instances
+			(project ""
+				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/ac8729f4-7f99-4f94-80ab-41b789ee4364"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -5425,6 +5795,82 @@
 			(project "Retrovisores"
 				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/ac8729f4-7f99-4f94-80ab-41b789ee4364"
 					(reference "Q23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 240.03 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b84783ad-8700-4b4e-a52e-a10fedec1120")
+		(property "Reference" "Q13"
+			(at 246.38 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 246.38 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 245.11 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 245.11 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 240.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2726da4-3d38-4e58-858e-6f5bdf6addbc")
+		)
+		(pin "2"
+			(uuid "1ed38984-4cc2-4a76-bf92-57865a5f12dd")
+		)
+		(pin "3"
+			(uuid "46d2a41f-8a94-4a86-9129-dec31428d570")
+		)
+		(instances
+			(project "Retrovisores"
+				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/ac8729f4-7f99-4f94-80ab-41b789ee4364"
+					(reference "Q13")
 					(unit 1)
 				)
 			)

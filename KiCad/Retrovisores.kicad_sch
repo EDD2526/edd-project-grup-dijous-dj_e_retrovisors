@@ -48,48 +48,6 @@
 		)
 	)
 	(sheet
-		(at 67.31 24.13)
-		(size 35.56 22.86)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "1c3d604c-e7d0-496d-8979-68ecbe1c0e00")
-		(property "Sheetname" "CAN"
-			(at 67.31 23.4184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "BUS CAN.kicad_sch"
-			(at 67.31 47.5746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Retrovisores"
-				(path "/9b9f005f-0621-4675-bd4e-683e7082b120"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 196.85 24.13)
 		(size 35.56 22.86)
 		(exclude_from_sim no)
@@ -211,48 +169,6 @@
 			(project "Retrovisores"
 				(path "/9b9f005f-0621-4675-bd4e-683e7082b120"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 111.76 58.42)
-		(size 34.29 20.32)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "6910b1a9-4b96-4e2e-afa4-bb01ddbc1d1e")
-		(property "Sheetname" "PROGRAMADOR"
-			(at 111.76 57.7084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "PROGRAMADOR.kicad_sch"
-			(at 111.76 79.3246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Retrovisores"
-				(path "/9b9f005f-0621-4675-bd4e-683e7082b120"
-					(page "10")
 				)
 			)
 		)
