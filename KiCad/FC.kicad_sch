@@ -380,28 +380,10 @@
 		(uuid "18e7cd12-5734-4ec8-a18f-3415eeac1ac2")
 	)
 	(junction
-		(at 140.97 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3286e9f7-980f-4e92-b993-2cd82b1d70eb")
-	)
-	(junction
-		(at 104.14 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6963a1ea-6334-467e-b355-f258c35837ee")
-	)
-	(junction
 		(at 176.53 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7664c42c-64d6-4875-b2d4-043d21800671")
-	)
-	(junction
-		(at 176.53 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "94fe3cb7-452f-4d88-a2c6-9e530c8401fb")
 	)
 	(junction
 		(at 140.97 93.98)
@@ -410,54 +392,16 @@
 		(uuid "985b0a25-57ff-4616-b83d-20ffd688c9fe")
 	)
 	(junction
-		(at 140.97 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b23758e8-cb4d-45c9-a643-9257dd0e4303")
-	)
-	(junction
 		(at 140.97 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b396cb55-0414-4512-b05f-61018d9347fb")
 	)
 	(junction
-		(at 176.53 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d2419856-32ac-4e89-9bb9-fa2ff06afccc")
-	)
-	(junction
-		(at 104.14 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7846081-7b03-4f5d-98e5-dab676afd9c8")
-	)
-	(junction
 		(at 176.53 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe263876-6d5c-4f6b-b210-ea31cf148988")
-	)
-	(wire
-		(pts
-			(xy 172.72 119.38) (xy 176.53 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c615436-d80b-4c52-a3e6-ecf17acb31ad")
-	)
-	(wire
-		(pts
-			(xy 100.33 133.35) (xy 104.14 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19ea2614-80aa-4804-a325-bcce892de6e7")
 	)
 	(wire
 		(pts
@@ -471,46 +415,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 119.38) (xy 144.78 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d8a37a4-2e3b-43b5-ab52-662fb5572a2c")
-	)
-	(wire
-		(pts
-			(xy 100.33 119.38) (xy 104.14 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f0f0965-afec-4b86-8a51-8b6f5f315cfe")
-	)
-	(wire
-		(pts
-			(xy 104.14 133.35) (xy 109.22 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32e76426-88e4-4b89-85c3-dd663718eb03")
-	)
-	(wire
-		(pts
-			(xy 137.16 119.38) (xy 140.97 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35d4de27-8009-422f-b3cc-30d7632d4cef")
-	)
-	(wire
-		(pts
 			(xy 100.33 93.98) (xy 104.14 93.98)
 		)
 		(stroke
@@ -518,16 +422,6 @@
 			(type default)
 		)
 		(uuid "3a7e7981-12d4-4117-87d7-6833ca957180")
-	)
-	(wire
-		(pts
-			(xy 176.53 119.38) (xy 180.34 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4190cae3-c8dd-45ae-ac32-b332fb781905")
 	)
 	(wire
 		(pts
@@ -561,16 +455,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 119.38) (xy 109.22 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70844716-3f35-4df2-adbd-849ec92aac5c")
-	)
-	(wire
-		(pts
 			(xy 137.16 93.98) (xy 140.97 93.98)
 		)
 		(stroke
@@ -578,16 +462,6 @@
 			(type default)
 		)
 		(uuid "7932089c-9a3d-42d9-8848-6f74cf28a80e")
-	)
-	(wire
-		(pts
-			(xy 140.97 133.35) (xy 144.78 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94bc9599-d8bf-44ec-b46a-bc94e43cc0a4")
 	)
 	(wire
 		(pts
@@ -621,16 +495,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 133.35) (xy 180.34 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8244194-905a-4795-bc91-2be06247195e")
-	)
-	(wire
-		(pts
 			(xy 137.16 80.01) (xy 140.97 80.01)
 		)
 		(stroke
@@ -641,16 +505,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 133.35) (xy 176.53 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3bd0527-31ee-4603-bbc3-90da113c4d0c")
-	)
-	(wire
-		(pts
 			(xy 172.72 93.98) (xy 176.53 93.98)
 		)
 		(stroke
@@ -658,16 +512,6 @@
 			(type default)
 		)
 		(uuid "e46e896d-6900-49a6-92b9-15765df5727d")
-	)
-	(wire
-		(pts
-			(xy 137.16 133.35) (xy 140.97 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e81e5c47-d765-415e-8985-7b61f9db875f")
 	)
 	(wire
 		(pts
@@ -701,28 +545,6 @@
 			)
 		)
 	)
-	(global_label "FCR"
-		(shape input)
-		(at 109.22 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0f96e5e8-0813-4254-8fcd-37efb6076357")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.8338 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VCC"
 		(shape input)
 		(at 162.56 80.01 180)
@@ -736,28 +558,6 @@
 		(uuid "1e02e8d8-7c1f-4e60-a7ab-3f71fca47396")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 155.9462 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCC"
-		(shape input)
-		(at 162.56 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "20eef653-7fa1-4f60-9795-37aae2c66be9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.9462 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -807,50 +607,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCC"
-		(shape input)
-		(at 162.56 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "414c9318-8595-43c9-bc22-9536e2bf1955")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.9462 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCC"
-		(shape input)
-		(at 127 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "609636c3-8f49-437d-a7a6-6df82643bff3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.3862 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -943,50 +699,6 @@
 			)
 		)
 	)
-	(global_label "FCU"
-		(shape input)
-		(at 144.78 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7e603e85-5288-44ff-ad8f-5f24f70e2b86")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.4543 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "FCL"
-		(shape input)
-		(at 109.22 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "82920acf-4ec4-46e2-85bd-18a71514d3f7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.5919 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VCC"
 		(shape input)
 		(at 90.17 80.01 180)
@@ -1031,116 +743,6 @@
 			)
 		)
 	)
-	(global_label "FCD"
-		(shape input)
-		(at 144.78 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a0c6ee96-11d9-49d5-8322-295739ed7787")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.3938 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCC"
-		(shape input)
-		(at 127 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a94504a8-b1e0-4545-bc27-0a988756c1e2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.3862 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "FC6"
-		(shape input)
-		(at 180.34 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ad8c9cd5-c2fb-4a8c-9f28-6bfa433e6b3b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.8933 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCC"
-		(shape input)
-		(at 90.17 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ae15aada-1d33-4d05-9309-f989cb6a63d3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.5562 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCC"
-		(shape input)
-		(at 90.17 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aef7e813-e034-4088-bc3e-7f5068a7d7f6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.5562 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "FCR"
 		(shape input)
 		(at 109.22 80.01 0)
@@ -1154,28 +756,6 @@
 		(uuid "b3528967-e749-4a30-91a3-edeb94a79aa0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 115.8338 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "FC5"
-		(shape input)
-		(at 180.34 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c095b007-e031-4f2c-91b0-dfadfc4dc672")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.8933 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1204,146 +784,6 @@
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 140.97 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00b40b7b-ef54-4c7e-9a38-c6a136b7e638")
-		(property "Reference" "R10"
-			(at 143.51 121.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 143.51 124.4599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.192 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 140.97 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "668cd403-960b-434d-8b14-8b0a1b78c872")
-		)
-		(pin "1"
-			(uuid "938ebf87-4db0-47d8-8201-43a9f91c23af")
-		)
-		(instances
-			(project "Retrovisores"
-				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/4629a1fc-e065-4bda-8879-2444f272394b"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 104.14 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07197fc7-32a3-4629-a3f4-fd6d7272ac2c")
-		(property "Reference" "R9"
-			(at 106.68 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 106.68 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.362 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 104.14 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "14f7ae14-93e5-4ad4-b18e-386d1bd349ef")
-		)
-		(pin "1"
-			(uuid "3a02475e-e076-4929-9262-482f66a09758")
-		)
-		(instances
-			(project "Retrovisores"
-				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/4629a1fc-e065-4bda-8879-2444f272394b"
-					(reference "R9")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -1408,76 +848,6 @@
 			(project "Retrovisores"
 				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/4629a1fc-e065-4bda-8879-2444f272394b"
 					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 104.14 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "23e98a35-32af-492e-8d03-ba46df174323")
-		(property "Reference" "R8"
-			(at 106.68 121.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 106.68 124.4599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.362 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 104.14 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bf564a11-835f-4cc9-947f-737f75bcdab3")
-		)
-		(pin "1"
-			(uuid "fdb40edf-368e-4324-a94c-fae3f87143ee")
-		)
-		(instances
-			(project "Retrovisores"
-				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/4629a1fc-e065-4bda-8879-2444f272394b"
-					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -1690,72 +1060,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 140.97 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c9ef7a5-08aa-47ed-afcb-adda2fa043d3")
-		(property "Reference" "#PWR037"
-			(at 140.97 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 140.97 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2458dd12-f11f-43ee-a995-1cdadd258f64")
-		)
-		(instances
-			(project "Retrovisores"
-				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/4629a1fc-e065-4bda-8879-2444f272394b"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 132.08 93.98 0)
 		(unit 1)
@@ -1888,72 +1192,6 @@
 			(project "Retrovisores"
 				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/4629a1fc-e065-4bda-8879-2444f272394b"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 176.53 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79252fe8-d0c8-4d04-a453-efb3e663c3f6")
-		(property "Reference" "#PWR039"
-			(at 176.53 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 176.53 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b52cfd52-29d7-40cf-81f3-1d63ee3317c3")
-		)
-		(instances
-			(project "Retrovisores"
-				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/4629a1fc-e065-4bda-8879-2444f272394b"
-					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -2094,212 +1332,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 176.53 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e12bb71-07e1-4ca8-955f-4015ef5ebb4c")
-		(property "Reference" "R21"
-			(at 179.07 121.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 179.07 124.4599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 174.752 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 176.53 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8f6e99d2-310f-45d5-a810-2e1d0b362508")
-		)
-		(pin "1"
-			(uuid "2360c164-e359-47df-a45b-cde762b270e8")
-		)
-		(instances
-			(project "Retrovisores"
-				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/4629a1fc-e065-4bda-8879-2444f272394b"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 167.64 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8208ebc0-c9f0-4e31-aa8b-9ff805da9343")
-		(property "Reference" "SW18"
-			(at 167.64 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 167.64 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 167.64 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31fc4499-1903-4946-9df3-a40d4a7ebd0b")
-		)
-		(pin "2"
-			(uuid "647394c0-b649-4d86-b854-2d5aed330101")
-		)
-		(instances
-			(project "Retrovisores"
-				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/4629a1fc-e065-4bda-8879-2444f272394b"
-					(reference "SW18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 95.25 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8445c0c1-4b26-4862-97fc-c89072f5d712")
-		(property "Reference" "SW8"
-			(at 95.25 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 95.25 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 95.25 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a117c34f-a64d-4730-8118-0786bacbf462")
-		)
-		(pin "2"
-			(uuid "6825b374-7fe7-4786-9558-33a0558977ef")
-		)
-		(instances
-			(project "Retrovisores"
-				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/4629a1fc-e065-4bda-8879-2444f272394b"
-					(reference "SW8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 167.64 93.98 0)
 		(unit 1)
@@ -2362,72 +1394,6 @@
 			(project "Retrovisores"
 				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/4629a1fc-e065-4bda-8879-2444f272394b"
 					(reference "SW16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 104.14 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8826321e-6497-456e-9137-498443b10905")
-		(property "Reference" "#PWR035"
-			(at 104.14 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 104.14 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61c9e3d7-44b9-4cf1-8c12-04aaee89755e")
-		)
-		(instances
-			(project "Retrovisores"
-				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/4629a1fc-e065-4bda-8879-2444f272394b"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -2566,346 +1532,6 @@
 			(project "Retrovisores"
 				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/4629a1fc-e065-4bda-8879-2444f272394b"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 140.97 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99278789-6d42-4ae1-a41f-b8124328c143")
-		(property "Reference" "#PWR038"
-			(at 140.97 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 140.97 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b2a00f5-4070-4bd5-998f-619c777c21a3")
-		)
-		(instances
-			(project "Retrovisores"
-				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/4629a1fc-e065-4bda-8879-2444f272394b"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 140.97 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1b88c32-1e0d-4742-a4e7-72ff4b9af73b")
-		(property "Reference" "R20"
-			(at 143.51 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 143.51 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.192 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 140.97 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b6cf688a-9377-4637-8cac-fbb258042421")
-		)
-		(pin "1"
-			(uuid "a132eb23-ec2d-49ab-8779-8f84a0349736")
-		)
-		(instances
-			(project "Retrovisores"
-				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/4629a1fc-e065-4bda-8879-2444f272394b"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 132.08 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4d089e1-d0a6-4e8c-8be1-2611e647b2d5")
-		(property "Reference" "SW10"
-			(at 132.08 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 132.08 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 132.08 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9fff42d-954d-485f-b00a-74ce321e59e9")
-		)
-		(pin "2"
-			(uuid "0b924000-46d3-4a1c-b89c-7e0f4fa7cf8e")
-		)
-		(instances
-			(project "Retrovisores"
-				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/4629a1fc-e065-4bda-8879-2444f272394b"
-					(reference "SW10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 167.64 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a505ea26-234b-4939-b3f5-c7d3628334d4")
-		(property "Reference" "SW17"
-			(at 167.64 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 167.64 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 167.64 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b20ae274-8c84-48a9-96e3-86b77fc63ba6")
-		)
-		(pin "2"
-			(uuid "416b8f54-5191-418d-a0a4-66987585b7da")
-		)
-		(instances
-			(project "Retrovisores"
-				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/4629a1fc-e065-4bda-8879-2444f272394b"
-					(reference "SW17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 95.25 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a80c66c3-f183-47be-8e1e-040f3898f29b")
-		(property "Reference" "SW7"
-			(at 95.25 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 95.25 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 95.25 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d6e3c0a-03ec-4a8e-9d8f-e444ec4b82a1")
-		)
-		(pin "2"
-			(uuid "63fe33aa-72ac-4433-af93-ddccfa8e180d")
-		)
-		(instances
-			(project "Retrovisores"
-				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/4629a1fc-e065-4bda-8879-2444f272394b"
-					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -3116,140 +1742,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 132.08 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dce02b98-4b83-426f-a2c3-01238ad8a691")
-		(property "Reference" "SW9"
-			(at 132.08 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 132.08 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 132.08 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "83ac84c1-1d06-4f04-852a-b28a3daebf55")
-		)
-		(pin "2"
-			(uuid "cbbd2af2-6fa0-4e39-9a3b-a28fed90bf61")
-		)
-		(instances
-			(project "Retrovisores"
-				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/4629a1fc-e065-4bda-8879-2444f272394b"
-					(reference "SW9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 104.14 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e12097d0-680f-4159-b03e-4cf110dddd9d")
-		(property "Reference" "#PWR036"
-			(at 104.14 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 104.14 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee46fe5c-c456-47f6-a314-099f1496e202")
-		)
-		(instances
-			(project "Retrovisores"
-				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/4629a1fc-e065-4bda-8879-2444f272394b"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 176.53 87.63 0)
 		(unit 1)
@@ -3310,76 +1802,6 @@
 			(project "Retrovisores"
 				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/4629a1fc-e065-4bda-8879-2444f272394b"
 					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 176.53 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ecea34c7-ab79-4856-bb11-133dda1545bb")
-		(property "Reference" "R22"
-			(at 179.07 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 179.07 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 174.752 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 176.53 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "907ae729-ef09-4438-9f6b-2de4bbb591c8")
-		)
-		(pin "1"
-			(uuid "02d30db3-85af-4f53-ae84-35aff038f4bf")
-		)
-		(instances
-			(project "Retrovisores"
-				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/4629a1fc-e065-4bda-8879-2444f272394b"
-					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -3516,72 +1938,6 @@
 			(project "Retrovisores"
 				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/4629a1fc-e065-4bda-8879-2444f272394b"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 176.53 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9568e87-8511-4ce3-a21a-7f87d9fc56a6")
-		(property "Reference" "#PWR040"
-			(at 176.53 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 176.53 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c189577a-f598-4ffc-9274-1ffd54999d43")
-		)
-		(instances
-			(project "Retrovisores"
-				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/4629a1fc-e065-4bda-8879-2444f272394b"
-					(reference "#PWR040")
 					(unit 1)
 				)
 			)

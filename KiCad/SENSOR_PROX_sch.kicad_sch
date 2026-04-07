@@ -409,13 +409,85 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 129.54 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26ac299f-6968-4bd4-b726-5e43e1d7bae9")
+	)
+	(junction
+		(at 127 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6a0bd46-bbe2-4b29-9f49-7e1766c106b1")
+	)
 	(no_connect
 		(at 144.78 66.04)
 		(uuid "eee6f309-d0e7-4cca-a5fd-f92495d077ce")
 	)
+	(wire
+		(pts
+			(xy 127 73.66) (xy 144.78 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02df3aa1-a970-4ff2-bf45-a1e52889cd6d")
+	)
+	(wire
+		(pts
+			(xy 129.54 57.15) (xy 129.54 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f56343f-c583-4934-937f-66249ceee833")
+	)
+	(wire
+		(pts
+			(xy 129.54 71.12) (xy 144.78 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8824412c-feee-494b-96d4-b0e0a1981cb7")
+	)
+	(wire
+		(pts
+			(xy 127 57.15) (xy 127 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab681947-b166-49af-a5d6-6c0c3ec5240f")
+	)
+	(wire
+		(pts
+			(xy 121.92 73.66) (xy 127 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3b3870a-0af3-44c2-98cc-9c0db10b4b09")
+	)
+	(wire
+		(pts
+			(xy 121.92 71.12) (xy 129.54 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7b60edd-b096-45dc-b1e1-e26dd2180c76")
+	)
 	(global_label "KLKI2C"
 		(shape input)
-		(at 144.78 73.66 180)
+		(at 121.92 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -425,7 +497,7 @@
 		)
 		(uuid "4c9e2779-0dd2-40f7-a423-df00e8c93bf4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.1424 73.66 0)
+			(at 112.2824 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -435,9 +507,31 @@
 			)
 		)
 	)
+	(global_label "VCC"
+		(shape input)
+		(at 129.54 57.15 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "634e433b-b1fa-44a7-b9f8-e511811c19b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.54 50.5362 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DI2C"
 		(shape input)
-		(at 144.78 71.12 180)
+		(at 121.92 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -447,7 +541,7 @@
 		)
 		(uuid "7672d0b7-5809-46ef-b565-4fce5bd41994")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.4405 71.12 0)
+			(at 114.5805 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -519,6 +613,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 127 57.15 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff457e2f-7756-4c27-b5d5-687a312458b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127 50.5362 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
