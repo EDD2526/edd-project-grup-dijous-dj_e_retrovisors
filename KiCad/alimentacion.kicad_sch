@@ -1184,6 +1184,12 @@
 		(uuid "1559ca77-b97c-4ec3-a594-a1fe5dcf1230")
 	)
 	(junction
+		(at 161.29 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "499947ef-004b-469a-983e-b82b3aad8319")
+	)
+	(junction
 		(at 207.01 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1200,6 +1206,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1f043f1-0889-4fea-ba4e-e4df480b1401")
+	)
+	(wire
+		(pts
+			(xy 161.29 69.85) (xy 165.1 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04790c5c-7571-4d48-afdd-6e79c4f1c4b1")
 	)
 	(wire
 		(pts
@@ -1223,16 +1239,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 69.85) (xy 210.82 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ff9f381-53fe-4ae9-be1a-f43d81ef1be9")
-	)
-	(wire
-		(pts
 			(xy 123.19 69.85) (xy 116.84 69.85)
 		)
 		(stroke
@@ -1243,7 +1249,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 69.85) (xy 165.1 69.85)
+			(xy 158.75 69.85) (xy 161.29 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1270,6 +1276,16 @@
 			(type default)
 		)
 		(uuid "2ca18ad8-e7eb-41ba-b6c6-60665969d468")
+	)
+	(wire
+		(pts
+			(xy 213.36 69.85) (xy 207.01 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "804e7201-2fed-4f81-949d-343eb06c88d4")
 	)
 	(wire
 		(pts
@@ -1300,6 +1316,26 @@
 			(type default)
 		)
 		(uuid "8d04511a-f0f2-4f52-9275-867fbab9e187")
+	)
+	(wire
+		(pts
+			(xy 161.29 60.96) (xy 161.29 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91f3d5b2-b7c7-4138-aac4-08e8bf30f757")
+	)
+	(wire
+		(pts
+			(xy 213.36 62.23) (xy 213.36 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95fc7ec8-b28f-44e6-9669-51b0cc048933")
 	)
 	(wire
 		(pts
@@ -1375,7 +1411,7 @@
 	)
 	(global_label "VCC"
 		(shape input)
-		(at 210.82 69.85 0)
+		(at 213.36 62.23 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1385,7 +1421,7 @@
 		)
 		(uuid "2b59fd28-ce14-486b-855a-0a9fba144c2c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.4338 69.85 0)
+			(at 213.36 55.6162 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1419,7 +1455,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 161.29 69.85 90)
+		(at 161.29 60.96 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1429,7 +1465,7 @@
 		)
 		(uuid "e2db8815-11f7-443f-a5b3-5a20a42f7d16")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.29 64.5667 90)
+			(at 161.29 55.6767 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1465,7 +1501,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 74.93 66.04 0)
 			(effects
 				(font
@@ -1737,7 +1773,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 187.96 69.85 0)
 			(effects
 				(font

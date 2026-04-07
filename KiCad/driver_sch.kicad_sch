@@ -5,33 +5,32 @@
 	(uuid "d579cfa3-e44c-47da-80ab-9683009f0092")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Motor:Motor_DC"
+		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
-				(offset 0)
+				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "M"
-				(at 2.54 2.54 0)
+			(property "Reference" "J"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "Motor_DC"
-				(at 2.54 -5.08 0)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Footprint" ""
-				(at 0 -2.286 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -40,15 +39,6 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "DC Motor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -57,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "DC Motor"
+			(property "Description" "Generic connector, single row, 01x02, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -66,7 +56,15 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "PinHeader*P2.54mm* TerminalBlock*"
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -75,62 +73,44 @@
 					(hide yes)
 				)
 			)
-			(symbol "Motor_DC_0_0"
-				(polyline
-					(pts
-						(xy -1.27 -3.302) (xy -1.27 0.508) (xy 0 -2.032) (xy 1.27 0.508) (xy 1.27 -3.302)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(hide yes)
 				)
 			)
-			(symbol "Motor_DC_0_1"
-				(polyline
-					(pts
-						(xy 0 2.032) (xy 0 2.54)
-					)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy 0 1.7272) (xy 0 2.0828)
+						(xy 1.27 0) (xy 0.8636 0)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.524)
-					(radius 3.2512)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -4.7752) (xy 0 -5.1816)
-					)
-					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -139,22 +119,20 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -7.62) (xy 0 -7.112)
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
 					)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "Motor_DC_1_1"
 				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -170,9 +148,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "-"
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1119,16 +1097,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 128.27) (xy 66.04 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c241d9b-31a5-436f-93b9-8c8bf5215dc9")
-	)
-	(wire
-		(pts
 			(xy 45.72 128.27) (xy 45.72 130.81)
 		)
 		(stroke
@@ -1149,7 +1117,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 48.26) (xy 49.53 48.26)
+			(xy 45.72 48.26) (xy 54.61 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1199,6 +1167,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 128.27) (xy 66.04 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "820aed90-d02d-4c13-a3cd-524dc2d028e2")
+	)
+	(wire
+		(pts
 			(xy 31.75 87.63) (xy 38.1 87.63)
 		)
 		(stroke
@@ -1229,13 +1207,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 87.63) (xy 66.04 87.63)
+			(xy 57.15 87.63) (xy 66.04 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "89d221ef-1f85-45b6-a897-5a797d388d6b")
+		(uuid "90a868c9-557a-4cc9-995b-7b461e2a5729")
 	)
 	(wire
 		(pts
@@ -1269,7 +1247,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 87.63) (xy 49.53 87.63)
+			(xy 45.72 87.63) (xy 54.61 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1359,7 +1337,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 128.27) (xy 49.53 128.27)
+			(xy 45.72 128.27) (xy 54.61 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1459,6 +1437,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 48.26) (xy 66.04 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee46fd1d-a778-4c08-a78f-ff21171fac89")
+	)
+	(wire
+		(pts
 			(xy 45.72 114.3) (xy 55.88 114.3)
 		)
 		(stroke
@@ -1496,16 +1484,6 @@
 			(type default)
 		)
 		(uuid "faf3fb52-cb01-47c1-8d3d-1bf9fb9c4d37")
-	)
-	(wire
-		(pts
-			(xy 62.23 48.26) (xy 66.04 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe119f1b-8e2f-4316-b515-da51c46f3a3b")
 	)
 	(global_label "OP"
 		(shape input)
@@ -1702,74 +1680,6 @@
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Motor:Motor_DC")
-		(at 54.61 48.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "09536c0f-2f87-4165-835e-670c25a58355")
-		(property "Reference" "M4"
-			(at 57.15 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Motor_DC"
-			(at 57.15 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 56.896 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 56.896 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Motor"
-			(at 54.61 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "60ef3007-7c86-4177-aa42-f251da670ed7")
-		)
-		(pin "2"
-			(uuid "6bdcb0fd-9e7f-48a5-b868-e6deccce9d43")
-		)
-		(instances
-			(project "Retrovisores"
-				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/ac8729f4-7f99-4f94-80ab-41b789ee4364"
-					(reference "M4")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -1992,74 +1902,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Motor:Motor_DC")
-		(at 54.61 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e032f40-e8f1-4232-b2b4-d7d32a3e053d")
-		(property "Reference" "M5"
-			(at 57.15 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Motor_DC"
-			(at 57.15 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 56.896 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 56.896 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Motor"
-			(at 54.61 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc5bbc75-e77e-49fd-b6bc-82633dcf5736")
-		)
-		(pin "2"
-			(uuid "01b12136-010a-4717-bd57-2bcbe66760b7")
-		)
-		(instances
-			(project "Retrovisores"
-				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/ac8729f4-7f99-4f94-80ab-41b789ee4364"
-					(reference "M5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:AO3400A")
 		(at 43.18 39.37 0)
 		(unit 1)
@@ -2206,74 +2048,6 @@
 			(project "Retrovisores"
 				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/ac8729f4-7f99-4f94-80ab-41b789ee4364"
 					(reference "Q19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Motor:Motor_DC")
-		(at 54.61 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c1a8c2a-f1cf-4078-a664-d51d54741ce6")
-		(property "Reference" "M6"
-			(at 57.15 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Motor_DC"
-			(at 57.15 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 56.896 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 56.896 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Motor"
-			(at 54.61 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "01d45938-1378-4f3b-93ab-49e7cc6e2c6c")
-		)
-		(pin "2"
-			(uuid "7d45eb65-50a3-4178-80fa-6b3c92244a0a")
-		)
-		(instances
-			(project "Retrovisores"
-				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/ac8729f4-7f99-4f94-80ab-41b789ee4364"
-					(reference "M6")
 					(unit 1)
 				)
 			)
@@ -2498,6 +2272,146 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 54.61 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96b9292b-5a75-427b-84dc-b67c3372ed76")
+		(property "Reference" "J5"
+			(at 58.42 51.4349 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 58.42 53.9749 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 54.61 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 54.61 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9442aa08-d710-412c-bca8-51fea4ce4ace")
+		)
+		(pin "1"
+			(uuid "a5ca7192-fb24-461b-9d98-4f05949a95e7")
+		)
+		(instances
+			(project ""
+				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/ac8729f4-7f99-4f94-80ab-41b789ee4364"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 54.61 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a01dff10-272e-4406-a20f-394b54b1b7df")
+		(property "Reference" "J7"
+			(at 58.42 131.4449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 58.42 133.9849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 54.61 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 54.61 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f27e28d2-de3f-4498-8c63-4d294d1305ae")
+		)
+		(pin "1"
+			(uuid "9b205180-f490-44ff-866c-84265ef20009")
+		)
+		(instances
+			(project "Retrovisores"
+				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/ac8729f4-7f99-4f94-80ab-41b789ee4364"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:AO3401A")
 		(at 68.58 95.25 180)
 		(unit 1)
@@ -2709,6 +2623,76 @@
 			(project "Retrovisores"
 				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/ac8729f4-7f99-4f94-80ab-41b789ee4364"
 					(reference "Q25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 54.61 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca8d1592-31f0-49a6-8761-1912ad6e548e")
+		(property "Reference" "J6"
+			(at 58.42 90.8049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 58.42 93.3449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 54.61 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 54.61 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eeb8cf6f-2b9b-4e30-aaee-b048deb42c28")
+		)
+		(pin "1"
+			(uuid "252b75e7-881c-481c-a5a2-d8faefae5dd1")
+		)
+		(instances
+			(project "Retrovisores"
+				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/ac8729f4-7f99-4f94-80ab-41b789ee4364"
+					(reference "J6")
 					(unit 1)
 				)
 			)
