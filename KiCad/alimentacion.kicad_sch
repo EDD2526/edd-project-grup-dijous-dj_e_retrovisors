@@ -444,7 +444,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D"
+		(symbol "Diode:1N5819"
 			(pin_numbers
 				(hide yes)
 			)
@@ -463,7 +463,7 @@
 					)
 				)
 			)
-			(property "Value" "D"
+			(property "Value" "1N5819"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -471,7 +471,16 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -480,7 +489,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
 				(at 0 0 0)
 				(effects
 					(font
@@ -489,7 +498,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Diode"
+			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(effects
 					(font
@@ -498,7 +507,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "D"
+			(property "ki_fp_filters" "D*DO?41*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -507,37 +516,10 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
+			(symbol "1N5819_0_1"
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -572,7 +554,7 @@
 					)
 				)
 			)
-			(symbol "D_1_1"
+			(symbol "1N5819_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -733,6 +715,156 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:SS34"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SS34"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "40V 3A Schottky Diode, SMA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SS34_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SS34_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1184,6 +1316,12 @@
 		(uuid "1559ca77-b97c-4ec3-a594-a1fe5dcf1230")
 	)
 	(junction
+		(at 133.35 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ec0a4b4-9345-4b2f-9b68-17a181b6fa59")
+	)
+	(junction
 		(at 161.29 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1201,15 +1339,9 @@
 		(color 0 0 0 0)
 		(uuid "a8222a37-e1bb-4514-8cc0-6c5f628b171b")
 	)
-	(junction
-		(at 165.1 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e1f043f1-0889-4fea-ba4e-e4df480b1401")
-	)
 	(wire
 		(pts
-			(xy 161.29 69.85) (xy 165.1 69.85)
+			(xy 161.29 69.85) (xy 172.72 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1239,6 +1371,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 68.58) (xy 80.01 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "206e8c78-cff5-4905-b071-fbeb4b6febd2")
+	)
+	(wire
+		(pts
 			(xy 123.19 69.85) (xy 116.84 69.85)
 		)
 		(stroke
@@ -1259,7 +1401,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 69.85) (xy 130.81 69.85)
+			(xy 138.43 69.85) (xy 133.35 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1276,6 +1418,16 @@
 			(type default)
 		)
 		(uuid "2ca18ad8-e7eb-41ba-b6c6-60665969d468")
+	)
+	(wire
+		(pts
+			(xy 133.35 69.85) (xy 130.81 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34edfb60-534a-491a-b77c-a7046cae3323")
 	)
 	(wire
 		(pts
@@ -1306,16 +1458,6 @@
 			(type default)
 		)
 		(uuid "8c8fdd98-7b39-4439-b196-666b69f5bed7")
-	)
-	(wire
-		(pts
-			(xy 165.1 69.85) (xy 172.72 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d04511a-f0f2-4f52-9275-867fbab9e187")
 	)
 	(wire
 		(pts
@@ -1376,16 +1518,6 @@
 			(type default)
 		)
 		(uuid "ef0ce3b4-3e8b-49ea-9910-a8d495cab97c")
-	)
-	(wire
-		(pts
-			(xy 165.1 77.47) (xy 165.1 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0b1945f-9eac-4055-a136-57bc5aa1d4ae")
 	)
 	(global_label "VBAT"
 		(shape input)
@@ -1820,7 +1952,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 78.74 0)
+		(at 133.35 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1829,7 +1961,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b277bf2-fe40-4cd1-af9b-3af33cf27081")
 		(property "Reference" "#PWR046"
-			(at 165.1 85.09 0)
+			(at 133.35 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1838,7 +1970,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 83.82 0)
+			(at 133.35 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1846,7 +1978,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 78.74 0)
+			(at 133.35 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1855,7 +1987,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 78.74 0)
+			(at 133.35 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1864,7 +1996,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 78.74 0)
+			(at 133.35 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1879,92 +2011,6 @@
 			(project "Retrovisores"
 				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/69d3243c-3079-440e-aee4-a9c749ca40e1"
 					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 187.96 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54939c7e-e9ff-4b88-bc4a-bf6f6375bdaa")
-		(property "Reference" "D3"
-			(at 187.96 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 187.96 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 187.96 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 187.96 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 187.96 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aba0fe64-e852-425c-97d5-1171dd451787")
-		)
-		(pin "2"
-			(uuid "79a8959c-551a-4b83-80cc-012f3eabaa97")
-		)
-		(instances
-			(project "Retrovisores"
-				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/69d3243c-3079-440e-aee4-a9c749ca40e1"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -1989,7 +2035,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10 uF"
 			(at 176.53 74.9299 0)
 			(effects
 				(font
@@ -1998,7 +2044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
 			(at 173.6852 77.47 0)
 			(effects
 				(font
@@ -2042,7 +2088,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SMAJ15A")
-		(at 165.1 73.66 270)
+		(at 133.35 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2051,7 +2097,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f2e206b-a8ee-4537-99b2-9170a3d47cb5")
 		(property "Reference" "D4"
-			(at 167.64 72.3899 90)
+			(at 135.89 72.3899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2060,7 +2106,7 @@
 			)
 		)
 		(property "Value" "SMAJ15A"
-			(at 167.64 74.9299 90)
+			(at 135.89 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2069,7 +2115,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 160.02 73.66 0)
+			(at 128.27 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2078,7 +2124,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 165.1 72.39 0)
+			(at 133.35 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2087,7 +2133,7 @@
 			)
 		)
 		(property "Description" "400W unidirectional Transient Voltage Suppressor, 15.0Vr, SMA(DO-214AC)"
-			(at 165.1 73.66 0)
+			(at 133.35 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2102,7 +2148,7 @@
 			(uuid "75d724b8-5d18-48d9-9c79-f0bab0d270a8")
 		)
 		(instances
-			(project ""
+			(project "Retrovisores"
 				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/69d3243c-3079-440e-aee4-a9c749ca40e1"
 					(reference "D4")
 					(unit 1)
@@ -2129,7 +2175,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10 uF"
 			(at 203.2 74.9299 0)
 			(effects
 				(font
@@ -2138,7 +2184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
 			(at 200.3552 77.47 0)
 			(effects
 				(font
@@ -2247,8 +2293,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SS34")
+		(at 127 69.85 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9146ba12-155c-4383-af22-a4cba0ba09f8")
+		(property "Reference" "D1"
+			(at 127.3175 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS34"
+			(at 127.3175 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 127 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+			(at 127 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 3A Schottky Diode, SMA"
+			(at 127 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e830adb4-f17d-4f23-9ecd-dfd135d1235d")
+		)
+		(pin "2"
+			(uuid "d968e9bf-6bad-4851-8140-b31679d7a90c")
+		)
+		(instances
+			(project ""
+				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/69d3243c-3079-440e-aee4-a9c749ca40e1"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
-		(at 80.01 68.58 0)
+		(at 82.55 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2257,7 +2371,7 @@
 		(fields_autoplaced yes)
 		(uuid "a06e0454-c23d-4180-817d-a76e9543f08f")
 		(property "Reference" "#PWR017"
-			(at 80.01 73.66 0)
+			(at 82.55 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2266,7 +2380,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 79.883 72.39 0)
+			(at 82.423 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2274,7 +2388,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 69.85 0)
+			(at 82.55 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2283,7 +2397,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 69.85 0)
+			(at 82.55 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2292,7 +2406,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 80.01 68.58 0)
+			(at 82.55 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2331,7 +2445,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nf"
 			(at 210.82 74.9299 0)
 			(effects
 				(font
@@ -2340,7 +2454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 207.9752 77.47 0)
 			(effects
 				(font
@@ -2449,6 +2563,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N5819")
+		(at 187.96 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbf962ef-8dfa-405d-b85c-e42b9c328af5")
+		(property "Reference" "D6"
+			(at 187.6425 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5819"
+			(at 187.6425 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 187.96 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+			(at 187.96 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(at 187.96 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4c24c72-441d-407c-9ec1-0d584f77e768")
+		)
+		(pin "2"
+			(uuid "14fcd0ca-467a-4ee2-aea5-be6b63d0ebb6")
+		)
+		(instances
+			(project ""
+				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/69d3243c-3079-440e-aee4-a9c749ca40e1"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 207.01 77.47 0)
 		(unit 1)
@@ -2509,92 +2691,6 @@
 			(project "Retrovisores"
 				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/69d3243c-3079-440e-aee4-a9c749ca40e1"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 127 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f83eaebe-ec1d-4024-9cc3-4e47de8a1f0b")
-		(property "Reference" "D1"
-			(at 127 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 127 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 127 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 127 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 127 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc3ede52-2972-45da-be60-be0d6ff71fae")
-		)
-		(pin "2"
-			(uuid "2e83a122-bd68-4955-a4f6-0982c00d59c2")
-		)
-		(instances
-			(project ""
-				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/69d3243c-3079-440e-aee4-a9c749ca40e1"
-					(reference "D1")
 					(unit 1)
 				)
 			)
