@@ -2016,7 +2016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
+		(property "Footprint" "Relay_THT:Relay_1-Form-C_Schrack-RYII_RM3.2mm"
 			(at 172.72 87.63 0)
 			(effects
 				(font
