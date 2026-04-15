@@ -1507,6 +1507,28 @@
 			)
 		)
 	)
+	(global_label "5V"
+		(shape input)
+		(at 55.88 72.39 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f959c9e-f077-49c3-b6a1-8764d4983413")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.88 67.1067 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDR1"
 		(shape input)
 		(at 31.75 48.26 180)
@@ -1525,6 +1547,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 55.88 33.02 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "25697d16-d187-436c-90fb-7e30ee527b3b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.88 27.7367 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -1613,50 +1657,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5VR"
-		(shape input)
-		(at 55.88 72.39 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "81816767-e699-4c9a-ae2e-95e760150e13")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.88 65.8367 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5VR"
-		(shape input)
-		(at 55.88 33.02 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9fa91486-d01e-4bfd-8e2f-eb756b16f494")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.88 26.4667 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
