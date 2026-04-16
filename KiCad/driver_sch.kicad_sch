@@ -1507,28 +1507,6 @@
 			)
 		)
 	)
-	(global_label "5V"
-		(shape input)
-		(at 55.88 72.39 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0f959c9e-f077-49c3-b6a1-8764d4983413")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.88 67.1067 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDR1"
 		(shape input)
 		(at 31.75 48.26 180)
@@ -1547,28 +1525,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V"
-		(shape input)
-		(at 55.88 33.02 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "25697d16-d187-436c-90fb-7e30ee527b3b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.88 27.7367 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -1617,9 +1573,9 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "VBAT"
 		(shape input)
-		(at 55.88 113.03 90)
+		(at 55.88 33.02 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1627,9 +1583,31 @@
 			)
 			(justify left)
 		)
-		(uuid "3b17510b-d81c-404f-b321-574989d01612")
+		(uuid "4deb5ca6-723f-40fd-be81-097055d080de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.88 107.7467 90)
+			(at 55.88 25.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBAT"
+		(shape input)
+		(at 55.88 72.39 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7536d4ad-7f03-4f40-9e22-7180c9ae3284")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.88 64.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1674,6 +1652,28 @@
 		(uuid "c1f549db-83bd-40ac-bd55-a253a9fb1989")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 90.4942 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBAT"
+		(shape input)
+		(at 55.88 113.03 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d9ceda6f-bf37-4299-9745-3994d37ac599")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.88 105.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)

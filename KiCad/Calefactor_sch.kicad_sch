@@ -1673,7 +1673,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 83.82) (xy 187.96 83.82)
+			(xy 181.61 83.82) (xy 195.58 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1894,74 +1894,6 @@
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 191.77 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05b33735-5947-4901-860e-0908338d9a73")
-		(property "Reference" "R7"
-			(at 191.77 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 191.77 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 191.77 85.598 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 191.77 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 191.77 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "50cc73e8-21f1-472a-ac30-e4387040b597")
-		)
-		(pin "1"
-			(uuid "3091f817-8224-4875-9139-3614560d5f3b")
-		)
-		(instances
-			(project "Retrovisores"
-				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/1a76def2-ddde-4ac6-93d0-da3d16171b62"
-					(reference "R7")
-					(unit 1)
-				)
 			)
 		)
 	)
