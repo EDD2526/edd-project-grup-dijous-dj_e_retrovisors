@@ -1123,179 +1123,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GNDPWR"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GNDPWR"
-				(at 0 -3.302 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GNDPWR_0_1"
-				(polyline
-					(pts
-						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDPWR_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
 		(at 172.72 69.85)
@@ -1667,6 +1494,12 @@
 			(uuid "ff83f7c9-d68e-4407-8826-a14eb22a83f2")
 		)
 		(instances
+			(project "alimentacion"
+				(path "/488d7143-5cfe-4655-8097-bbd968af1df0"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "Retrovisores"
 				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/69d3243c-3079-440e-aee4-a9c749ca40e1"
 					(reference "J1")
@@ -1739,6 +1572,12 @@
 			(uuid "e01f0d95-6a55-4c90-910f-32825e0586ec")
 		)
 		(instances
+			(project "alimentacion"
+				(path "/488d7143-5cfe-4655-8097-bbd968af1df0"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "Retrovisores"
 				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/69d3243c-3079-440e-aee4-a9c749ca40e1"
 					(reference "U5")
@@ -1805,6 +1644,12 @@
 			(uuid "ec4c086f-5b17-4c13-8e0c-9e53559b3af7")
 		)
 		(instances
+			(project "alimentacion"
+				(path "/488d7143-5cfe-4655-8097-bbd968af1df0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Retrovisores"
 				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/69d3243c-3079-440e-aee4-a9c749ca40e1"
 					(reference "#PWR025")
@@ -1871,6 +1716,12 @@
 			(uuid "17805bf2-81d2-43ef-beef-90b71a0c45e3")
 		)
 		(instances
+			(project "alimentacion"
+				(path "/488d7143-5cfe-4655-8097-bbd968af1df0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Retrovisores"
 				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/69d3243c-3079-440e-aee4-a9c749ca40e1"
 					(reference "#PWR021")
@@ -1942,6 +1793,12 @@
 			(uuid "01dc9a0b-a3d5-4ffc-8fcd-b8f519d5ccb8")
 		)
 		(instances
+			(project "alimentacion"
+				(path "/488d7143-5cfe-4655-8097-bbd968af1df0"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "Retrovisores"
 				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/69d3243c-3079-440e-aee4-a9c749ca40e1"
 					(reference "U4")
@@ -2008,6 +1865,12 @@
 			(uuid "a673b113-d7a4-4e3f-9c87-e0fb673f7cfa")
 		)
 		(instances
+			(project "alimentacion"
+				(path "/488d7143-5cfe-4655-8097-bbd968af1df0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Retrovisores"
 				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/69d3243c-3079-440e-aee4-a9c749ca40e1"
 					(reference "#PWR046")
@@ -2078,6 +1941,12 @@
 			(uuid "7a735751-e064-4f6f-b9f1-45aefa67020d")
 		)
 		(instances
+			(project "alimentacion"
+				(path "/488d7143-5cfe-4655-8097-bbd968af1df0"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Retrovisores"
 				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/69d3243c-3079-440e-aee4-a9c749ca40e1"
 					(reference "C4")
@@ -2148,6 +2017,12 @@
 			(uuid "75d724b8-5d18-48d9-9c79-f0bab0d270a8")
 		)
 		(instances
+			(project "alimentacion"
+				(path "/488d7143-5cfe-4655-8097-bbd968af1df0"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "Retrovisores"
 				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/69d3243c-3079-440e-aee4-a9c749ca40e1"
 					(reference "D4")
@@ -2218,6 +2093,12 @@
 			(uuid "22192350-ac16-4bec-8947-1fb3ab250105")
 		)
 		(instances
+			(project "alimentacion"
+				(path "/488d7143-5cfe-4655-8097-bbd968af1df0"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Retrovisores"
 				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/69d3243c-3079-440e-aee4-a9c749ca40e1"
 					(reference "C1")
@@ -2284,6 +2165,12 @@
 			(uuid "e7040b98-55ac-435a-b718-31461c9214eb")
 		)
 		(instances
+			(project "alimentacion"
+				(path "/488d7143-5cfe-4655-8097-bbd968af1df0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Retrovisores"
 				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/69d3243c-3079-440e-aee4-a9c749ca40e1"
 					(reference "#PWR016")
@@ -2352,75 +2239,15 @@
 			(uuid "d968e9bf-6bad-4851-8140-b31679d7a90c")
 		)
 		(instances
-			(project ""
-				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/69d3243c-3079-440e-aee4-a9c749ca40e1"
-					(reference "D1")
+			(project "alimentacion"
+				(path "/488d7143-5cfe-4655-8097-bbd968af1df0"
+					(reference "D?")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 82.55 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a06e0454-c23d-4180-817d-a76e9543f08f")
-		(property "Reference" "#PWR017"
-			(at 82.55 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 82.423 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 82.55 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f354f7f6-fdcd-4928-a983-9102c391047a")
-		)
-		(instances
 			(project ""
 				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/69d3243c-3079-440e-aee4-a9c749ca40e1"
-					(reference "#PWR017")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -2488,6 +2315,12 @@
 			(uuid "8990d283-be89-4bfa-9edb-22d3e2a4efd8")
 		)
 		(instances
+			(project "alimentacion"
+				(path "/488d7143-5cfe-4655-8097-bbd968af1df0"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Retrovisores"
 				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/69d3243c-3079-440e-aee4-a9c749ca40e1"
 					(reference "C2")
@@ -2554,6 +2387,12 @@
 			(uuid "5c81a03b-228e-42c8-be2a-ada8616d0a79")
 		)
 		(instances
+			(project "alimentacion"
+				(path "/488d7143-5cfe-4655-8097-bbd968af1df0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Retrovisores"
 				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/69d3243c-3079-440e-aee4-a9c749ca40e1"
 					(reference "#PWR015")
@@ -2622,6 +2461,12 @@
 			(uuid "14fcd0ca-467a-4ee2-aea5-be6b63d0ebb6")
 		)
 		(instances
+			(project "alimentacion"
+				(path "/488d7143-5cfe-4655-8097-bbd968af1df0"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/69d3243c-3079-440e-aee4-a9c749ca40e1"
 					(reference "D6")
@@ -2688,6 +2533,12 @@
 			(uuid "09875e9f-0f28-4a06-81d4-32b3a2b1af47")
 		)
 		(instances
+			(project "alimentacion"
+				(path "/488d7143-5cfe-4655-8097-bbd968af1df0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "Retrovisores"
 				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/69d3243c-3079-440e-aee4-a9c749ca40e1"
 					(reference "#PWR022")
@@ -2696,4 +2547,82 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "power:GND")
+		(at 82.55 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0bdd13d-1e32-40d9-b284-973f52574db3")
+		(property "Reference" "#PWR?"
+			(at 82.55 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1402220-4211-4718-862e-ad74fc7757cc")
+		)
+		(instances
+			(project "alimentacion"
+				(path "/488d7143-5cfe-4655-8097-bbd968af1df0"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "Retrovisores"
+				(path "/9b9f005f-0621-4675-bd4e-683e7082b120/69d3243c-3079-440e-aee4-a9c749ca40e1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
