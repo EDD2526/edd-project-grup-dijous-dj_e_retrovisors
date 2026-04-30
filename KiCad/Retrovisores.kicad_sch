@@ -6,49 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 153.67 58.42)
-		(size 35.56 20.32)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "1a76def2-ddde-4ac6-93d0-da3d16171b62")
-		(property "Sheetname" "Calefactor"
-			(at 153.67 57.7084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Calefactor_sch.kicad_sch"
-			(at 153.67 79.3246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Retrovisores"
-				(path "/9b9f005f-0621-4675-bd4e-683e7082b120"
-					(page "11")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 196.85 24.13)
+		(at 111.76 25.4)
 		(size 35.56 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -64,7 +22,7 @@
 		)
 		(uuid "2f39354d-8df5-4269-96cb-5875be0a8958")
 		(property "Sheetname" "MICRO"
-			(at 196.85 23.4184 0)
+			(at 111.76 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "MICRO.kicad_sch"
-			(at 196.85 47.5746 0)
+			(at 111.76 48.8446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90,7 +48,7 @@
 		)
 	)
 	(sheet
-		(at 20.32 58.42)
+		(at 67.31 59.69)
 		(size 35.56 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -106,7 +64,7 @@
 		)
 		(uuid "4629a1fc-e065-4bda-8879-2444f272394b")
 		(property "Sheetname" "FINALCARRERA"
-			(at 20.32 57.7084 0)
+			(at 67.31 58.9784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +73,7 @@
 			)
 		)
 		(property "Sheetfile" "FC.kicad_sch"
-			(at 20.32 79.3246 0)
+			(at 67.31 80.5946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -132,7 +90,7 @@
 		)
 	)
 	(sheet
-		(at 111.76 24.13)
+		(at 111.76 57.15)
 		(size 34.29 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -148,7 +106,7 @@
 		)
 		(uuid "5ac1b284-cf75-4bf4-9e32-45476caa1b97")
 		(property "Sheetname" "SENSOR"
-			(at 111.76 23.4184 0)
+			(at 111.76 56.4384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,7 +115,7 @@
 			)
 		)
 		(property "Sheetfile" "SENSOR_PROX_sch.kicad_sch"
-			(at 111.76 47.5746 0)
+			(at 111.76 80.5946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -216,7 +174,7 @@
 		)
 	)
 	(sheet
-		(at 153.67 24.13)
+		(at 67.31 25.4)
 		(size 35.56 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -231,8 +189,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "ac8729f4-7f99-4f94-80ab-41b789ee4364")
-		(property "Sheetname" "drivers motor"
-			(at 153.67 23.4184 0)
+		(property "Sheetname" "POTENCIA"
+			(at 67.31 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -241,7 +199,7 @@
 			)
 		)
 		(property "Sheetfile" "driver_sch.kicad_sch"
-			(at 153.67 47.5746 0)
+			(at 67.31 48.8446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -258,7 +216,7 @@
 		)
 	)
 	(sheet
-		(at 67.31 58.42)
+		(at 20.32 58.42)
 		(size 35.56 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -274,7 +232,7 @@
 		)
 		(uuid "d9a9a71f-7e52-4655-80f6-880c2ab57cfb")
 		(property "Sheetname" "BOTONERA"
-			(at 67.31 57.7084 0)
+			(at 20.32 57.7084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -283,7 +241,7 @@
 			)
 		)
 		(property "Sheetfile" "BOTONERA.kicad_sch"
-			(at 67.31 79.3246 0)
+			(at 20.32 79.3246 0)
 			(effects
 				(font
 					(size 1.27 1.27)

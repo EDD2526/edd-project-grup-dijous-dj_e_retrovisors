@@ -643,7 +643,7 @@
     ],
     [
       "ac8729f4-7f99-4f94-80ab-41b789ee4364",
-      "drivers motor"
+      "POTENCIA"
     ],
     [
       "2f39354d-8df5-4269-96cb-5875be0a8958",
@@ -656,10 +656,6 @@
     [
       "d9a9a71f-7e52-4655-80f6-880c2ab57cfb",
       "BOTONERA"
-    ],
-    [
-      "1a76def2-ddde-4ac6-93d0-da3d16171b62",
-      "Calefactor"
     ]
   ],
   "text_variables": {}
